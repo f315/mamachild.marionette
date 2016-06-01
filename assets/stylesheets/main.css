@@ -1,0 +1,74 @@
+﻿@import 'uikit.mamachild.custom.css';
+@import 'fonts.css';
+@import 'jquery-ui-1.9.2.custom.css';
+
+/*datepicker*/
+.ui-datepicker{
+    width: auto;
+    padding: 0;
+    border: 0;
+}
+.ui-datepicker table{
+    margin: 0;
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-header{
+    border: 0;
+    border-radius: 0;
+    background-color: #38cbd0;
+    background-image: none;
+    color: #fff;
+    font-family: "LatoRegular", sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+}
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+    border: 0;
+    background: transparent;
+    font-weight: normal;
+    color: #212121;
+}
+.ui-widget-header .ui-icon {
+    background-image: none;
+}
+.ui-datepicker td {
+    padding: 0;
+    border: 1px solid #ebebeb;
+}
+.ui-datepicker table>tbody>tr>td:first-child{
+    border-left:0;
+}
+.ui-datepicker table>tbody>tr>td:last-child{
+    border-right:0;
+}
+
+.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight {
+    border: 0;
+    background: #fafafa;
+    color: #000;
+    font-weight: bold;
+}
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+    border: 0;
+    background: #fff;
+    font-weight: normal;
+    color: #6c7174;
+    line-height: 180%;
+    text-align: center;
+}
+.ui-datepicker table>tbody>tr>td:last-child .ui-state-default{
+    color: #38cbd0;
+}
+.ui-datepicker th {
+    font-size: 10px;
+    color: #a7a7a7;
+}

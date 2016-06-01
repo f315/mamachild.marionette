@@ -1,0 +1,295 @@
+.uk-navbar-nav-subtitle.-caret{
+    position: relative;
+}
+.uk-navbar-nav-subtitle.-caret .uk-icon-caret{
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+.uk-badge-notification.-square{
+    border-radius: 3px;
+}
+.uk-badge-notification.-right{
+    float: right;
+}
+.uk-grid-category{
+    position: absolute;
+    box-sizing: border-box;
+    opacity: 1;
+}
+.uk-grid-category > .uk-panel-box{
+    height: 365px;
+    width: 235px;
+}
+.uk-thumbnail figure{
+    position: relative;
+    margin: 0;
+}
+.usercard-notification .uk-icon-button{
+    position: relative;
+    margin-right: 4px;
+    border-radius: 100%;
+    background: #f3f5f8;
+    border: 0;
+    opacity: .2;
+}
+.usercard-notification .uk-icon-button-active{
+    background: #f3f5f8;
+    opacity: 1;
+}
+.usercard-notification .uk-icon-button .uk-badge{
+    position: absolute;
+    top: -11px;
+    right: -11px;
+    background-color: #ff5411;
+}
+.usercard-info{
+    background-color: #f3f7fb;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 10px 0;
+    margin: 15px 0 20px;
+}
+.usercard-info-block{
+    width: 50%;
+    line-height: 80%;
+    margin-top: 10px;
+}
+.usercard-info-block b{
+    font-size: 27px;
+    font-family: "LatoBold", sans-serif;
+}
+.usercard-info-block p{
+    font-size: 13px;
+}
+.usercard-info>.usercard-info-block{
+    float: right;
+}
+.usercard-info>.usercard-info-block:first-child{
+    float: left;
+}
+
+.userpic{
+    padding: 0;
+    border: 0;
+    margin-top: 14px;
+}
+.userpic-l{
+   width: 72px;
+   height: 72px;
+}
+.userpic-s{
+    width: 50px;
+    height: 50px;
+}
+.userpic-canvas{
+      position: relative;
+  }
+.userpic-canvas img{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+.account-picker .uk-navbar-nav-subtitle{
+    position: relative;
+    padding-right: 90px;
+}
+.account-picker .userpic-s{
+    position: absolute;
+    right: 28px;
+    top: -3px;
+}
+.account-picker .uk-icon-caret{
+    right: 9px;
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.logo img{
+    vertical-align: baseline;
+}
+.menu{
+    margin-top: 10px;
+}
+.account-picker .uk-parent{
+    height: 72px;
+    }
+.account-picker .uk-parent>a{
+    margin-top: 20px;
+}
+.account-picker .uk-parent.uk-open{
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.1);
+}
+.account-picker .uk-dropdown{
+    width: 100%;
+    border: 0;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.1);
+    margin-top: 0;
+}
+.account-picker .uk-dropdown-navbar{
+    left:0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.account-picker .uk-nav-navbar > li > a:hover{
+    background-color: #f7f7f7;
+    color: #565656;
+}
+[class*='-mamachild']:before{
+    content:'';
+    display: inline-block;
+    background-image: url(../images/icons.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 19px;
+    vertical-align: middle;
+}
+.uk-icon-user-mamachild:before{
+    background-position: -178px -6px;
+}
+.uk-icon-wrench-mamachild:before{
+    background-position: -149px -10px;
+}
+.uk-icon-sign-out-mamachild:before{
+    background-position: -116px -8px;
+}
+.uk-icon-calendar-l-mamachild:before{
+    background-position: -58px -5px;
+    width: 39px;
+    height: 45px;
+}
+.uk-icon-comment-mamachild:before{
+    background-position: -686px -12px;
+    width: 24px;
+    height: 19px;
+}
+.uk-icon-calendar-s-mamachild:before{
+    background-position: -613px -10px;
+    width: 22px;
+    height: 23px;
+}
+.uk-icon-article-mamachild:before{
+    background-position: -651px -11px;
+    width: 19px;
+    height: 22px;
+}
+.uk-icon-caret-down-mamachild:before{
+    background-position: -564px -27px;
+    width: 14px;
+    height: 8px;
+}
+.uk-search-mamachild:before{
+    background-position: -240px -8px;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    top: 8px;
+    right: -45px;
+    left: auto;
+}
+.uk-icon-heart-red-mamachild:before{
+    background-position: -496px -10px;
+    width: 27px;
+    height: 25px;
+}
+.uk-icon-heart-green-mamachild:before{
+    background-position: -457px -11px;
+    width: 27px;
+    height: 25px;
+}
+.uk-icon-heart{
+    position: absolute;
+    top: 0px;
+    right: -15px;
+}
+.uk-icon-birthday-mamachild:before{
+    background-position: -421px -9px;
+    width: 21px;
+    height: 21px;
+}
+.uk-icon-cardio-mamachild:before{
+    background-position: -311px -9px;
+    width: 24px;
+    height: 21px;
+}
+.uk-icon-drugs-mamachild:before{
+    background-position: -384px -9px;
+    width: 22px;
+    height: 21px;
+}
+.uk-icon-bell-mamachild:before{
+    background-position: -347px -7px;
+    width: 23px;
+    height: 24px;
+}
+.uk-icon-message-mamachild:before{
+     background-position: -275px -9px;
+     width: 23px;
+     height: 18px;
+ }
+.uk-icon-up-mamachild:before{
+    background-position: -535px -13px;
+    width: 10px;
+    height: 6px;
+}
+.uk-icon-down-mamachild:before{
+    background-position: -535px -30px;
+    width: 10px;
+    height: 6px;
+}
+
+.account-picker .date-time b{
+    font-family: "LatoBold";
+    font-size: 24px;
+}
+.account-picker .date-time span{
+    font-family: "LatoBold";
+    font-size: 17px;
+}
+.account-picker .date-time p{
+    margin: 0;
+    margin-top: 3px;
+}
+.account-picker .uk-dropdown ul>li:first-child{
+    margin: 20px 15px;
+}
+.uk-icon-calendar-l-mamachild{
+    float: left;
+    margin-right: 20px;
+}
+
+.uk-tab-left > li > a{
+    line-height: 200%;
+}
+
+.uk-panel-left{
+    padding: 0;
+}
+.uk-panel-aside{
+    box-shadow: 1px 2px 14px rgba(0,0,0,.1);
+    padding-bottom: 85px;
+    background-color: #fff;
+}
+.filter{
+    box-shadow: 1px 0 14px rgba(0,0,0,.1);
+    padding: 10px 20px;
+    background-color: #fff;
+}
+.uk-button-light{
+    background: transparent;
+    border: 0;
+}
+.uk-switcher-conteiner{
+    box-shadow: 1px 2px 14px rgba(0,0,0,.1);
+}
+.usercard{
+    border: 1px solid #ebebeb;
+    border-radius: 0;
+}
+.usercard{
+    background-color: #fff;
+}
+.usercard-footer{
+    text-align: center;
+}
