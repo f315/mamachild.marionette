@@ -17,7 +17,14 @@
     box-sizing: border-box;
     opacity: 1;
 }
-.uk-grid-category > .uk-panel-box{
+/*.uk-grid-category > .uk-panel-box{
+    height: 365px;
+    width: 235px;
+}*/
+.uk-grid-category{
+    position: relative;
+}
+#usercards .uk-grid-category > .uk-panel-box{
     height: 365px;
     width: 235px;
 }

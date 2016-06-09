@@ -5,11 +5,11 @@ define([
 ],function($, _, Backbone){
     'use strict';
 
-    var WblockModel = Backbone.Model.extend({
+    var UsercardModel = Backbone.Model.extend({
         defaults: {
 
         }
     });
 
-    return WblockModel;
+    return UsercardModel;
 })

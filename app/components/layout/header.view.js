@@ -1,29 +1,18 @@
 define([
-    'jquery',
-    'underscore',
-    'backbone',
+    'app',
     'components/layout/header.model',
     'text!components/layout/header.template.tpl'
-],function($, _, Backbone, Model, Template){
-    'use strict';
+],function(App, Model, Template){
+    App.module("HeaderModule", function(UsercardModule, App, Backbone, Marionette, $, _){
+        var HeaderView = Marionette.ItemView.extend({
+            el: $('#navRegion'),
+            template: Template
+        });
 
-    var HeaderView = Backbone.View.extend({
-        el: $('#header'),
-        template: _.template(Template),
-        initialize: function(){
-            this.render();
-        },
-        render: function () {
-            this.model = new Model();
+        var headerView = new HeaderView();
 
-            this.$el.html(this.template(this.model.toJSON()));
-            return this;
-        }
+        headerView.render();
     });
-
-    var headerView = new HeaderView();
-
-
-    return headerView;
+    return App.HeaderModule;
 })
 
