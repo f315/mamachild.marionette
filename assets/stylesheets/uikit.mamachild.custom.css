@@ -1,3 +1,6 @@
+html, body{
+    height: 100%;
+}
 .uk-navbar-nav-subtitle.-caret{
     position: relative;
 }
@@ -23,6 +26,7 @@
 }*/
 .uk-grid-category{
     position: relative;
+    float: left;
 }
 #usercards .uk-grid-category > .uk-panel-box{
     height: 365px;
@@ -186,6 +190,11 @@
     width: 14px;
     height: 8px;
 }
+.uk-icon-caret-up-mamachild:before{
+    background-position: -564px -11px;
+    width: 14px;
+    height: 8px;
+}
 .uk-search-mamachild:before{
     background-position: -240px -8px;
     width: 19px;
@@ -299,4 +308,35 @@
 }
 .usercard-footer{
     text-align: center;
+}
+.tab-usercards{
+    position: relative;
+    /*overflow: hidden;*/
+}
+.uk-button:active, .uk-button.uk-active,
+.uk-button:hover, .uk-button:focus{
+    border-radius: 14px;
+}
+.usercards{
+    /*overflow: hidden;*/
+    position: absolute;
+    box-shadow: 1px 2px 14px rgba(0,0,0,.1);
+    background-color: #fff;
+    padding-bottom: 100px;
+}
+.uk-switcher-conteiner .uk-active {
+    border-bottom: 0;
+}
+@media (min-width: 1494px) and (max-width: 1870px){
+    .usercards {
+        width: 1068px;
+    }
+}
+@media (min-width: 1220px) and (max-width: 1450px){
+    .usercards {
+        width: 801px;
+    }
+    .uk-search-field{
+        width: 400px;
+    }
 }

@@ -4,7 +4,7 @@ define([
     'text!components/usercard/usercard.template.tpl',
     'components/usercard/usercard.collection',
     'knob',
-    'grid'
+    'custom'
 ],function(App, Model, Template){
     App.module("UsercardModule", function(UsercardModule, App, Backbone, Marionette, $, _){
         var Usercard = Marionette.LayoutView.extend({
@@ -12,8 +12,7 @@ define([
             className: 'uk-grid-category',
             attributes: function(){
                 return {
-                    'data-my-category': '1',
-                    'data-grid-prepared': 'true'
+                    'data-sort': this.model.get('username')
                 }
             },
             template: Template,
@@ -22,10 +21,10 @@ define([
             },
             onRender: function(){
                 //radial progress bars
-                this.$el.find('.dial').knob({
+                this.ui.dial.knob({
                     'width':82,
                     'height':82,
-                    'fgColor':'#09ff26',
+                    'fgColor':this.model.get('colorKnob'),
                     'inputColor':'transparent',
                     'bgColor':'#f7f8f8',
                     'font':'century gothic',
@@ -37,7 +36,7 @@ define([
                 });
                 var val = this.ui.dial.data('value');
                 this.ui.dial.val(val).trigger('change');
-            //console.log();
+                //console.log();
                 return this;
             }
         });
@@ -46,16 +45,17 @@ define([
             el: $('#usercards'),
             childView: Usercard,
             onRender: function(){
-                //initialisation grid
+
+
 
                 return this;
-            },
+            }/*,
             events: {
                 'click .uk-button-primary' : 'test'
             },
             test: function(){
                 var grid = UIkit.grid(this.$el);
-            }
+            }*/
         });
 
         var usercardView = new Usercards({

@@ -1,3 +1,4 @@
+<script type="text/template">
 <div class="uk-container uk-container-center">
     <a class="uk-navbar-brand uk-hidden-small logo" href="index.html">
         <img src="assets/images/logo.png" title="MAMACHILD" alt="MAMACHILD"/>
@@ -42,3 +43,4 @@
         </ul>
     </div>
 </div>
+</script>

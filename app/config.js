@@ -12,10 +12,11 @@ requirejs.config({
         'toJson': 'json2',
         'text': 'text',
         'uikit': '../assets/uikit/js/uikit.min',
-        'grid':'../assets/uikit/js/components/grid.min',
         'datepicker': '../assets/js/jquery-ui-1.9.2.custom.datepicker.min',
         'custom': '../assets/js/custom',
-        'knob': '../assets/js/jquery.knob'
+        'knob': '../assets/js/jquery.knob'/*,
+        'grid':'../assets/uikit/js/components/grid.min',
+        'gridWookmark': '../assets/js/jquery.wookmark.min'*/
     },
     shim: {
         'underscore': {

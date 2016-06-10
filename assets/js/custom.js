@@ -1,46 +1,38 @@
 $(document).ready(function(){
-    $('.dial').knob({
-        'width':82,
-        'height':82,
-        'fgColor':'#09ff26',
-        'inputColor':'transparent',
-        'bgColor':'#f7f8f8',
-        'font':'century gothic',
-        'fontWeight':'normal',
-        'readOnly':'true',
-        'draw' : function () {
-            $(this.i).val(this.cv + '%')
+    //sort
+    $('.sort').on('click', function(){
+        var mylist = $('#usercards');
+        var listitems = mylist.children('.uk-grid-category').get();
+
+        var state = $(this).data('State');
+        if(state){
+            sortAscended();
+            $(this).find('i').toggleClass("uk-icon-caret-down-mamachild uk-icon-caret-up-mamachild");
+            $(this).data('State', false);
+        } else {
+            sortDescended();
+            $(this).find('i').toggleClass("uk-icon-caret-up-mamachild uk-icon-caret-down-mamachild");
+            $(this).data('State', true);
         }
-    });
-    $('.dial_possession').knob({
-        'width':100,
-        'fgColor':'#cfecf7',
-        'inputColor':'#ffd703',
-        'bgColor':'#526125',
-        'font':'century gothic',
-        'fontWeight':'normal',
-        'readOnly':'true',
-        'draw' : function () {
-            $(this.i).val(this.cv + '%')
+
+        function sortDescended(){
+            listitems.sort(function(a, b) {
+                var compA = $(a).data('sort').toUpperCase();
+                var compB = $(b).data('sort').toUpperCase();
+                return (compA < compB) ? -1 : (compA > compB) ? 1 : 0;
+            })
+            $.each(listitems, function(idx, itm) { mylist.append(itm); console.log(itm); console.log(idx);});
         }
+        function sortAscended(){
+            listitems.sort(function(a, b) {
+                var compA = $(a).data('sort').toUpperCase();
+                var compB = $(b).data('sort').toUpperCase();
+                return (compA > compB) ? -1 : (compA < compB) ? 1 : 0;
+            })
+            $.each(listitems, function(idx, itm) { mylist.append(itm); console.log(itm); console.log(idx);});
+        }
+
+
     });
-    //value radial progress bars
-    var v1=80;
-    var v2=38;
-    var v3=31;
-    var v4=70;
-    $('#dial1').val(v1).trigger('change');
-    $('#dial2').val(v2).trigger('change');
-    $('#dial3').val(v3).trigger('change');
-    $('#dial4').val(v4).trigger('change');
-
-
-    /* datepicker*/
-    if( $( "#datepicker").length > 0){
-        $( "#datepicker" ).datepicker({
-            inline: true
-        });
-    }
-
 
 })
