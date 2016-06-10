@@ -31,10 +31,10 @@ requirejs.config({
             exports: "Marionette"
         },
         'tpl': ["text"],
-        'grid':{
+        /*'grid':{
             deps: ['uikit', 'jquery'],
             exports: 'Grid'
-        },
+        },*/
         'datepicker':{
             deps: ['jquery'],
             exports: 'Datepicker'

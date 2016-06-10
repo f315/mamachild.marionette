@@ -9,28 +9,27 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/backbone.marionette.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/components/usercard/usercard.collection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/underscore-tpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.html" />
-      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\patientInfo\wPatientInfo.model.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\patientInfo\wPatientInfo.view.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\patientInfo\wcontentPatientInfo.template.tpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\patientLastMeasurements\wPatientLastMeasurements.model.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\patientLastMeasurements\wPatientLastMeasurements.template.tpl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\patientLastMeasurements\wPatientLastMeasurements.view.js" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\layout\topnav.model.js" afterPath="$PROJECT_DIR$/app/components/layout/aside.model.js" />
-      <change type="MOVED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\layout\topnav.template.tpl" afterPath="$PROJECT_DIR$/app/components/layout/aside.template.tpl" />
-      <change type="MOVED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\layout\topnav.view.js" afterPath="$PROJECT_DIR$/app/components/layout/aside.view.js" />
-      <change type="MOVED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\wblock.model.js" afterPath="$PROJECT_DIR$/app/components/usercard/usercard.model.js" />
-      <change type="MOVED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\wblock.template.tpl" afterPath="$PROJECT_DIR$/app/components/usercard/usercard.template.tpl" />
-      <change type="MOVED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\widgets\wblock.view.js" afterPath="$PROJECT_DIR$/app/components/usercard/usercard.view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/jquery.wookmark.min.js" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\buttonsOptions.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\buttonsOptions.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\profile.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\profile.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabApps.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabApps.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabChangePass.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabChangePass.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabMedData.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabMedData.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabNotification.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabNotification.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabUserInfo.component.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\components\dialogs\profile\tabUserInfo.component.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\config\route.config.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app\services\wblock.service.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/layout/header.template.tpl" afterPath="$PROJECT_DIR$/app/components/layout/header.template.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/layout/header.view.js" afterPath="$PROJECT_DIR$/app/components/layout/header.view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css" afterPath="$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/layout/aside.view.js" afterPath="$PROJECT_DIR$/app/components/layout/aside.view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/usercard/usercard.view.js" afterPath="$PROJECT_DIR$/app/components/usercard/usercard.view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config.js" afterPath="$PROJECT_DIR$/app/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="mamachild.marionette.iws" />
@@ -50,108 +49,71 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.583691">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="29" selection-start="733" selection-end="733" vertical-scroll-proportion="-0.3970588">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/config.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="19" selection-start="496" selection-end="506" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/app.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="45" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.view.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/layout/header.view.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="usercard.model.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.model.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="3" column="14" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="usercard.view.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.view.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="11" selection-start="197" selection-end="217" vertical-scroll-proportion="0.2266187">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="usercard.collection.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.collection.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="17" column="18" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="usercard.template.tpl" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.template.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="-0.0">
-                  <folding>
-                    <element signature="e#2074#16693#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="aside.view.js" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/components/layout/aside.view.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="19" selection-start="602" selection-end="602" vertical-scroll-proportion="0.5638051">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="aside.template.tpl" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/components/layout/aside.template.tpl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="9" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-15.75">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="38" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-9.805555">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aside.template.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/layout/aside.template.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="30" selection-end="1145" vertical-scroll-proportion="-0.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aside.view.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/components/layout/aside.view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="12" selection-start="324" selection-end="324" vertical-scroll-proportion="0.30857143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usercard.template.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.template.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="18" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-6.8055553">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usercard.view.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.view.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="12" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uikit.mamachild.custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="322" column="44" selection-start="6324" selection-end="6324" vertical-scroll-proportion="-10.3125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -164,22 +126,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/app/init.js" />
-        <option value="$PROJECT_DIR$/app/components/layout/header.template.tpl" />
         <option value="$PROJECT_DIR$/app/components/layout/aside.model.js" />
         <option value="$PROJECT_DIR$/app/components/usercard/usercard.model.js" />
-        <option value="$PROJECT_DIR$/app/components/layout/header.view.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css" />
-        <option value="$PROJECT_DIR$/temp.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/assets/js/custom.js" />
         <option value="$PROJECT_DIR$/app/components/usercard/usercard.collection.js" />
         <option value="$PROJECT_DIR$/app/components/usercard/usercard.template.tpl" />
-        <option value="$PROJECT_DIR$/app/components/usercard/usercard.view.js" />
+        <option value="$PROJECT_DIR$/app/components/layout/header.template.tpl" />
+        <option value="$PROJECT_DIR$/temp.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css" />
         <option value="$PROJECT_DIR$/app/config.js" />
+        <option value="$PROJECT_DIR$/app/components/layout/header.view.js" />
+        <option value="$PROJECT_DIR$/app/components/usercard/usercard.view.js" />
+        <option value="$PROJECT_DIR$/app/components/layout/aside.view.js" />
         <option value="$PROJECT_DIR$/app/components/layout/aside.template.tpl" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/app/app.js" />
-        <option value="$PROJECT_DIR$/app/components/layout/aside.view.js" />
       </list>
     </option>
   </component>
@@ -280,7 +242,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mamachild.marionette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mamachild.marionette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mamachild.marionette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mamachild.marionette" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -313,10 +315,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="usercard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,24 +337,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mamachild.marionette" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mamachild.marionette" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,10 +379,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\assets\js" />
       <recent name="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\app" />
       <recent name="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\assets\stylesheets" />
       <recent name="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\assets\stylesheets\images" />
-      <recent name="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\assets\js" />
       <recent name="C:\Users\123\Documents\WEB_local\gitrepos\mamachild.marionette\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -453,6 +433,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299356" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -464,7 +445,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -524,110 +504,112 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/components/layout/header.template.tpl">
+    <entry file="file://$PROJECT_DIR$/assets/js/jquery.wookmark.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="6" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.93563765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/layout/header.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/layout/aside.model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="278" selection-end="278" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="0" selection-start="3846" selection-end="3846" vertical-scroll-proportion="0.33257142">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.model.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="66" selection-start="4769" selection-end="4769" vertical-scroll-proportion="-2.0977354">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.collection.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="496" selection-end="506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="26" selection-start="1045" selection-end="1095" vertical-scroll-proportion="0.8331429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.template.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="-0.0">
-          <folding>
-            <element signature="e#2074#16693#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="733" selection-end="733" vertical-scroll-proportion="-0.3970588">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/components/layout/aside.template.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="9" selection-start="1155" selection-end="1155" vertical-scroll-proportion="-15.75">
+        <state line="3" column="14" selection-start="55" selection-end="55" vertical-scroll-proportion="0.09257143">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+        <state line="13" column="45" selection-start="394" selection-end="394" vertical-scroll-proportion="0.40114287">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/userpic_05.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="334" selection-end="342" vertical-scroll-proportion="0.36666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="70" selection-start="537" selection-end="565" vertical-scroll-proportion="0.33942857">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="9" selection-start="15027" selection-end="15027" vertical-scroll-proportion="0.8712753">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/uikit.mamachild.custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="44" selection-start="6324" selection-end="6324" vertical-scroll-proportion="-10.3125">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/layout/header.view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+        <state line="8" column="11" selection-start="309" selection-end="309" vertical-scroll-proportion="0.24685714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="18" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="197" selection-end="217" vertical-scroll-proportion="0.2266187">
+        <state line="45" column="12" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/layout/header.template.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="44" selection-start="74" selection-end="74" vertical-scroll-proportion="0.03218117">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/usercard/usercard.template.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="18" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-6.8055553">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="1138" selection-end="1138" vertical-scroll-proportion="-9.805555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/components/layout/aside.template.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="30" selection-end="1145" vertical-scroll-proportion="-0.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/components/layout/aside.view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="19" selection-start="602" selection-end="602" vertical-scroll-proportion="0.5638051">
+        <state line="10" column="12" selection-start="324" selection-end="324" vertical-scroll-proportion="0.30857143">
           <folding />
         </state>
       </provider>

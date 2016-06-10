@@ -4,7 +4,8 @@ define([
     'text!components/usercard/usercard.template.tpl',
     'components/usercard/usercard.collection',
     'knob',
-    'custom'
+    'custom',
+    'uikit'
 ],function(App, Model, Template){
     App.module("UsercardModule", function(UsercardModule, App, Backbone, Marionette, $, _){
         var Usercard = Marionette.LayoutView.extend({

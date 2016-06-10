@@ -2,7 +2,8 @@ define([
     'app',
     'components/layout/aside.model',
     'text!components/layout/aside.template.tpl',
-    'datepicker'
+    'datepicker',
+    'uikit'
 ],function(App, Model, Template){
     App.module("AsideModule", function(AsideModule, App, Backbone, Marionette, $, _){
 
