@@ -23,44 +23,13 @@
     <div class="uk-grid" data-uk-grid-margin>
         <div id="asideRegion" class="uk-width-small-1-4 uk-width-medium-1-5">
             <!-- insert aside here -->
-            <!--<div class="uk-panel uk-panel-box uk-panel-left uk-panel-aside">
-                <div class="datepicker"></div>
-                <ul class="uk-tab uk-tab-left" data-uk-tab="{connect:'#tab-left-content'}">
-                    <li class="uk-active" aria-expanded="true"><a href="#"><i class="uk-icon-user-mamachild"></i> Мои пациенты</a></li>
-                    <li aria-expanded="false" class="">
-                        <a href="#"><i class="uk-icon-comment-mamachild"></i> Сообщения
-                            <span class="uk-badge uk-badge-notification -square -right uk-badge-warning">3</span>
-                        </a>
-                    </li>
-                    <li aria-expanded="false" class=""><a href="#"><i class="uk-icon-calendar-s-mamachild"></i> Календарь</a></li>
-                    <li aria-expanded="false" class=""><a href="#"><i class="uk-icon-article-mamachild"></i> Для пациентов</a></li>
-                    <li class="uk-tab-responsive uk-active uk-hidden" aria-haspopup="true" aria-expanded="false">
-                        <a>Вкладка</a>
-                        <div class="uk-dropdown uk-dropdown-small">
-                            <ul class="uk-nav uk-nav-dropdown"></ul>
-                            <div></div>
-                        </div>
-                    </li>
-                </ul>
-            </div>-->
         </div>
         <div class="uk-width-small-3-4 uk-width-medium-4-5">
             <div class="uk-grid">
-                <!--<div class="uk-width-medium-1-1">
-                    <div class="filter">
-                        <button class="uk-button uk-button-sort uk-button-light sort">Сортировать по ФИО
-                            <i class="uk-icon-caret-down-mamachild"></i>
-                        </button>
-
-                        <form class="uk-search uk-search-mamachild" data-uk-search>
-                            <input class="uk-search-field" type="search" placeholder="Поиск...">
-                        </form>
-                    </div>
-                </div>-->
                 <div class="uk-width-medium-1-1">
 
-                    <div id="tab-left-content" class="uk-switcher uk-switcher-conteiner">
-                        <div class="tab-usercards uk-active">
+                    <div id="tab-left-content" class="tabs uk-switcher-conteiner">
+                        <div id="tab1" class="tab tab-usercards">
 
                             <div id="usercards" class="tm-grid-heights usercards">
                                 <div class="filter">
@@ -76,9 +45,9 @@
                             </div>
 
                         </div>
-                        <div aria-hidden="false" class="">Сообщения</div>
-                        <div aria-hidden="false" class="">Календарь!</div>
-                        <div aria-hidden="false" class="">Для пациентов</div>
+                        <div id="tab2" class="tab" style="display: none;">Сообщения</div>
+                        <div id="tab3" class="tab" style="display: none;">Календарь!</div>
+                        <div id="tab4" class="tab" style="display: none;">Для пациентов</div>
                     </div>
 
                 </div>

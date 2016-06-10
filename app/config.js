@@ -9,7 +9,6 @@ requirejs.config({
         'underscore': 'underscore-min',
         'backbone': 'backbone-min',
         'marionette': "backbone.marionette.min",
-        'toJson': 'json2',
         'text': 'text',
         'uikit': '../assets/uikit/js/uikit.min',
         'datepicker': '../assets/js/jquery-ui-1.9.2.custom.datepicker.min',

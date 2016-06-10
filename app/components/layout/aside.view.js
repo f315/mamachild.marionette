@@ -11,12 +11,43 @@ define([
             el: $('#asideRegion'),
             template: Template,
             ui:{
-                datepicker: '.datepicker'
+                datepicker: '.datepicker',
+                nav: '.uk-tab',
+                linkNav: '.uk-tab li a'
             },
             onRender:function(){
+                var that = this;
                 //datepicker
-                this.ui.datepicker.datepicker({
+                that.ui.datepicker.datepicker({
                     inline: true
+                });
+
+                //tabs
+                that.ui.linkNav.click(function() {
+                    var curItem = $(".uk-tab li.uk-active a").attr("rel");
+                    var _this = $(this);
+
+                    var tabHeight = that.ui.nav.height();
+                    that.ui.nav.height(tabHeight);
+
+                    that.ui.nav.find("li").removeClass("uk-active");
+                    _this.parent('li').addClass("uk-active");
+
+                    var itemID = _this.attr("rel");
+
+                    if (itemID != curItem) {
+                        $("#"+curItem).fadeOut(300, function() {
+                            $("#"+itemID).fadeIn();
+                            var newHeight = $("#"+itemID).height();
+                            $(".tabs").animate({
+                                height: newHeight
+                            });
+
+                        });
+
+                    }
+
+                    return false;
                 });
             }
         });

@@ -119,6 +119,7 @@ html, body{
 }
 .logo img{
     vertical-align: baseline;
+    margin-top: -5px;
 }
 .menu{
     margin-top: 10px;
